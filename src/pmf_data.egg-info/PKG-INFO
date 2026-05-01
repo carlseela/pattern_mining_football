@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: pmf-data
+Version: 0.1.0
+Summary: Small read-only data helpers for pattern_mining_football Wyscout-style JSON/CSV.
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pandas>=2.0
+Requires-Dist: mplsoccer>=1.5
+
+# pattern_mining_football
+Applying techniques of spatio temporal pattern mining to football event data.

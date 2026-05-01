@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pmf-data"
+version = "0.1.0"
+description = "Small read-only data helpers for pattern_mining_football Wyscout-style JSON/CSV."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "mplsoccer>=1.5",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
